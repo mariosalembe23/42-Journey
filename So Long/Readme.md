@@ -15,7 +15,7 @@ IMPORTANTE: Precisas ter o `git` instalado na sua maquina.
 ## Vamos compilar o Jogo!
 Primeiro, copie o link do meu repositorio usando os comandos `git clone`:
 ```ssh
-    git clone https://github.com/mariosalembe23/42Luanda-Projects.git projects
+    git clone https://github.com/mariosalembe23/42-Journey.git projects
 ```
 
 Depois navegue ate a pasta `So Long`:

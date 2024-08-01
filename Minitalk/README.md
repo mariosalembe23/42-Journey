@@ -20,7 +20,7 @@ UNIX signals.
 
 You should execute in the terminal the command ```make``` to generate de executables:
 ```ssh
-make
+cd Minitalk && make
 ```
 ### Running the server exec.
 It will generate a ```server``` and ```client``` executable file, so, just to start de server:

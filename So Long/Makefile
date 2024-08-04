@@ -6,7 +6,7 @@
 #    By: mario <mario@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/17 17:59:10 by msalembe          #+#    #+#              #
-#    Updated: 2024/08/01 07:25:56 by mario            ###   ########.fr        #
+#    Updated: 2024/08/04 01:08:43 by mario            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ FLAGS = -Wall -Wextra -Werror
 
 MIN_FLAGS = -Lmlx_linux -lmlx_Linux -Imlx_linux -lXext -lX11 -lm -lz
 
-CC = gcc
+CC = cc
 
 # ---------------------- EFFECTS ------------------------------- #
 
@@ -61,6 +61,7 @@ CLEANED = echo "✨ $(YELLOW)The game was deleted!$(RESET)"
 all: $(NAME)
 
 $(NAME): start proccess
+
 start:
 	@$(CREATING)
 

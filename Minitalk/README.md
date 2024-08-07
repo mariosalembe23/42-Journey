@@ -1,4 +1,3 @@
-![MINITALK](minitalk.png)
 # MINITALK PROJECT
 
 You must create a communication program in the form of a client and a server.
@@ -21,8 +20,13 @@ UNIX signals.
 
 You should execute in the terminal the command ```make``` to generate de executables:
 ```ssh
-cd Minitalk && make
+make
 ```
+**To execute the bonus part, you need to execute de target ```bonus```**
+```ssh
+make bonus
+```
+
 ### Running the server exec.
 It will generate a ```server``` and ```client``` executable file, so, just to start de server:
 
